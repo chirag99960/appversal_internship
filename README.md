@@ -86,7 +86,7 @@ port forwarding
 ```bash
 kubectl port-forward --address 0.0.0.0 svc/nginx_svc 8081:80
 ```
-![pods](portforwarding.jpg)
+![pods](forwarding.jpg)
 
 ### Step 8
 
