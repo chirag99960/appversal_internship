@@ -79,7 +79,7 @@ kubectl get svc
 
 ### Step-6 
 #### Allow all security inbounds rules.
-![aws_security](rules.jpg)
+![aws_security](rule.jpg)
 
 ### Step 7 (optional)
 port forwarding 
