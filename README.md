@@ -75,7 +75,7 @@ kubectl get pods
 ```bash
 kubectl get svc
 ```
-![pods](Screenshot 2024-11-28 131625.jpg)
+![pods](pods.jpg)
 
 ### Step-6 
 #### Allow all security inbounds rules.
