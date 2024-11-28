@@ -79,20 +79,20 @@ kubectl get svc
 
 ### Step-6 
 #### Allow all security inbounds rules.
-![aws_security](Screenshot 2024-11-28 131818.jpg)
+![aws_security](rules.jpg)
 
 ### Step 7 (optional)
 port forwarding 
 ```bash
 kubectl port-forward --address 0.0.0.0 svc/nginx_svc 8081:80
 ```
-![pods](Screenshot 2024-11-28 131746.jpg)
+![pods](portforwarding.jpg)
 
 ### Step 8
 
 ```bash
 curl http://54.86.52.82:8081/
 ```
-![nginx](Screenshot 2024-11-28 131529.jpg)
+![nginx](result.jpg)
 
 ## Now You can see your webpage!
